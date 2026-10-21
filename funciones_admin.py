@@ -1,4 +1,4 @@
-from base_datos import agregar_cancion,mostrar_canciones
+from base_datos import agregar_canciones,mostrar_canciones
 def menu_admin():
     while True:
         print("\n"+"="*50)
@@ -14,7 +14,7 @@ def menu_admin():
             artista = input("artista: ")
             album = input("álbum: ")
             genero = input("género: ")
-            agregar_cancion(nombre, artista, album, genero)
+            agregar_canciones(nombre, artista, album, genero)
         elif opcion == "2":
             mostrar_canciones()
         elif opcion == "3":
