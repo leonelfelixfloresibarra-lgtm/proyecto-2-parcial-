@@ -19,5 +19,5 @@ def agregar_cancion(nombre, artista, album, genero):
             print(f"{i}.{c['nombre']} - {c['artista']} [{c['genero']}]")
             print("="*50 + "\n")
     def buscar_cancion(nombre):
-                resultados = [c for c in lista_canciones if nombre.lower() in c['nombre'].lower()]
+                resultados =[c for c in lista_canciones if nombre.lower() in c['nombre'].lower()]
                 return resultados
