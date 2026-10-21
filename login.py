@@ -1,4 +1,4 @@
-usuarios={"admin": {"clave":"admin123", "rol": "administrador"},"usuario": {"clave":"usuario123", "rol": "usuario"}}
+usuarios={"admin": {"clave":"123", "rol": "administrador"},"usuario": {"clave":"123", "rol": "usuario"}}
 def iniciar_sesion():
     print ("="*40)
     print ("SISTEMA DE GESTION DE MUSICA")
