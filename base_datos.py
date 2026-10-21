@@ -8,7 +8,7 @@ def agregar_cancion(nombre, artista, album, genero):
     }
     lista_canciones.append(cancion)
     print(f"Canción '{nombre}' agregada correctamente.")
-    def mostrar_canciones():
+def mostrar_canciones():
         if len (lista_canciones) == 0:
             print("No hay canciones en la lista.")
             return
@@ -18,6 +18,6 @@ def agregar_cancion(nombre, artista, album, genero):
         for i, c in enumerate(lista_canciones,1):
             print(f"{i}.{c['nombre']} - {c['artista']} [{c['genero']}]")
             print("="*50 + "\n")
-    def buscar_cancion(nombre):
+def buscar_cancion(nombre):
                 resultados =[c for c in lista_canciones if nombre.lower() in c['nombre'].lower()]
                 return resultados
