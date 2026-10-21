@@ -1,5 +1,5 @@
 lista_canciones=[]
-def agregar_canciones(nombre, artista, album, genero):
+def agregar_cancion(nombre, artista, album, genero):
     cancion = {
         "nombre": nombre,
         "artista": artista,
